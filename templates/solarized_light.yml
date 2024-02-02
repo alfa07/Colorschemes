@@ -135,7 +135,7 @@ highlights:
   DiffAdd: '- diff_green_bg'
   DiffChange: '- diff_green_bg'
   DiffDelete: 'diff_red_fg diff_red_bg'
-  QuickFixLine: '- ui2_blue'
+  QuickFixLine: 'bg ui3_blue'
   PmenuSbar: '- alt_bg'
   PmenuThumb: '- gray'
   MatchWord: '- - u'
