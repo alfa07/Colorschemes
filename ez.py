@@ -6,6 +6,7 @@ import yaml
 import os
 import argparse
 import sys
+import re
 
 
 def parse_arguments():
@@ -131,11 +132,18 @@ def gen_palette(palette):
     write('palette.lua', code)
 
 
+def quote_string(string):
+    if re.match(r'^[a-zA-Z_][a-zA-Z0-9_]*$', string):
+        return string
+    else:
+        return f'["{string}"]'
+
+
 def gen_skeleton(syntax, name, colorscheme_name):
     code = f'local {name} = {{\n'
 
     for key, value in syntax.items():
-        group = key
+        group = quote_string(key)
         props = value.split(' ')
         prop_keys = ('fg', 'bg', 'style')
         if props[0] != '':

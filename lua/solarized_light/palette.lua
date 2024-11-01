@@ -22,6 +22,7 @@ local colors = {
 	diff_green_bg_dark = "#dae2ae",
 	diff_green_fg = "#95a23c",
 	fg = "#657b83",
+	fg_light = "#eee8d5",
 	bg = "#fdf6e3",
 	alt_fg = "#657b83",
 	alt_bg = "#eee8d5",
@@ -64,6 +65,7 @@ local colors = {
 	ui4_blue = "#258bd2",
 	ui_orange = "#b58900",
 	ui_purple = "#d33682",
+	light_text = "#c6c2ac",
 }
 
 return colors

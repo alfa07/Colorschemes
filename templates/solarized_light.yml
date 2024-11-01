@@ -1,7 +1,7 @@
 information:
   name: solarized_light
   background: light
-  author: 'Maxim Sokolov <maximsok@gmail.com> based on onedarker by Christian Chiarulli <chrisatmachine@gmail.com>'
+  author: "Maxim Sokolov <maximsok@gmail.com> based on onedarker by Christian Chiarulli <chrisatmachine@gmail.com>"
 
 # SOLARIZED HEX     16/8 TERMCOL  XTERM/HEX   L*A*B      sRGB        HSB
 # --------- ------- ---- -------  ----------- ---------- ----------- -----------
@@ -23,410 +23,490 @@ information:
 # green     #859900  2/2 green     64 #5f8700 60 -20  65 133 153   0  68 100  60
 
 palette:
-  base03: '#002b36'
-  base02: '#073642'
-  base01: '#586e75'
-  base00: '#657b83'
-  base0: '#839496'
-  base1: '#93a1a1'
-  base2: '#eee8d5'
-  base3: '#fdf6e3'
-  yellow: '#b58900'
-  orange: '#cb4b16'
-  red: '#dc322f'
-  magenta: '#d33682'
-  violet: '#6c71c4'
-  blue: '#268bd2'
-  cyan: '#2aa198'
-  green: '#859900'
+  base03: "#002b36"
+  base02: "#073642"
+  base01: "#586e75"
+  base00: "#657b83"
+  base0: "#839496"
+  base1: "#93a1a1"
+  base2: "#eee8d5"
+  base3: "#fdf6e3"
+  yellow: "#b58900"
+  orange: "#cb4b16"
+  red: "#dc322f"
+  magenta: "#d33682"
+  violet: "#6c71c4"
+  blue: "#268bd2"
+  cyan: "#2aa198"
+  green: "#859900"
 
-  diff_red_bg: '#f9e6d5'
-  diff_red_bg_dark: '#eec4b5'
-  diff_red_fg: '#b7461a'
-  diff_green_bg: '#eff5d6'
-  diff_green_bg_dark: '#dae2ae'
-  diff_green_fg: '#95a23c'
+  diff_red_bg: "#f9e6d5"
+  diff_red_bg_dark: "#eec4b5"
+  diff_red_fg: "#b7461a"
+  diff_green_bg: "#eff5d6"
+  diff_green_bg_dark: "#dae2ae"
+  diff_green_fg: "#95a23c"
 
-  fg: '#657b83'
-  bg: '#fdf6e3'
+  fg: "#657b83"
+  fg_light: "#eee8d5"
+  bg: "#fdf6e3"
 
-  alt_fg: '#657b83'
-  alt_bg: '#eee8d5'
-  dark: '#eee8d5'
-  accent: '#586e75'
-  popup_back: '#002b36'
-  search_orange: '#b58900'
-  line: '#eee8d5'
+  alt_fg: "#657b83"
+  alt_bg: "#eee8d5"
+  dark: "#eee8d5"
+  accent: "#586e75"
+  popup_back: "#002b36"
+  search_orange: "#b58900"
+  line: "#eee8d5"
 
-  search_blue: '#93a1a1'
-  white: '#abb2bf'
-  gray: '#657b83'
-  dark_gray: '#002b36'
-  context: '#586e75'
-  light_gray: '#586e75'
-  tree_gray: '#eee8d5'
-  vivid_blue: '#2aa198'
-  dark_blue: '#586e75'
-  folder_blue: '#268bd2'
-  light_blue: '#268bd2'
-  light_green: '#b58900'
-  light_red: '#cb4b16'
-  purple: '#d33682'
+  search_blue: "#93a1a1"
+  white: "#abb2bf"
+  gray: "#657b83"
+  dark_gray: "#002b36"
+  context: "#586e75"
+  light_gray: "#586e75"
+  tree_gray: "#eee8d5"
+  vivid_blue: "#2aa198"
+  dark_blue: "#586e75"
+  folder_blue: "#268bd2"
+  light_blue: "#268bd2"
+  light_green: "#b58900"
+  light_red: "#cb4b16"
+  purple: "#d33682"
 
-  cursor_fg: '#515052'
-  cursor_bg: '#AEAFAD'
+  cursor_fg: "#515052"
+  cursor_bg: "#AEAFAD"
 
-  sign_add: '#859900'
-  sign_change: '#2aa198'
-  sign_delete: '#d33682'
-  tree_sign_add: '#859900'
-  tree_sign_change: '#2aa198'
+  sign_add: "#859900"
+  sign_change: "#2aa198"
+  sign_delete: "#d33682"
+  tree_sign_add: "#859900"
+  tree_sign_change: "#2aa198"
 
-  error_red: '#dc322f'
-  warning_orange: '#cb4b16'
-  info_yellow: '#b58900'
-  hint_blue: '#258bd2'
-  success_green: '#2aa198'
+  error_red: "#dc322f"
+  warning_orange: "#cb4b16"
+  info_yellow: "#b58900"
+  hint_blue: "#258bd2"
+  success_green: "#2aa198"
 
-  purple_test: '#d33682'
-  cyan_test: '#2aa198'
+  purple_test: "#d33682"
+  cyan_test: "#2aa198"
 
   # aViolet: '#646695'
   # UiBlue: '#0451A5'
 
-  ui_blue: '#586e75'
-  ui2_blue: '#657b83'
-  ui3_blue: '#258bd2'
-  ui4_blue: '#258bd2'
+  ui_blue: "#586e75"
+  ui2_blue: "#657b83"
+  ui3_blue: "#258bd2"
+  ui4_blue: "#258bd2"
   # ui3_blue: '#2082C9'
-  ui_orange: '#b58900'
-  ui_purple: '#d33682'
+  ui_orange: "#b58900"
+  ui_purple: "#d33682"
+
+  light_text: "#c6c2ac"
 
 highlights:
-  Normal: 'fg bg'
-  SignColumn: '- bg'
-  MsgArea: 'fg bg'
-  ModeMsg: 'fg dark'
-  MsgSeparator: 'fg bg'
-  SpellBad: 'light_red - u'
-  SpellCap: 'yellow - u'
-  SpellLocal: 'green - u'
-  SpellRare: 'purple - u'
-  NormalNC: 'fg bg'
-  Pmenu: 'light_gray tree_gray'
-  PmenuSel: 'bg ui3_blue'
-  WildMenu: 'fg ui2_blue'
-  CursorLineNr: 'light_gray - b'
-  Comment: 'gray - i'
-  Folded: 'accent alt_bg'
-  FoldColumn: 'accent alt_bg'
-  LineNr: 'gray -'
-  FloatBoder: 'gray alt_bg'
-  Whitespace: 'bg -'
-  VertSplit: 'gray bg'
-  CursorLine: '- dark'
-  CursorColumn: '- dark'
-  ColorColumn: '- dark'
-  NormalFloat: '- dark'
-  Visual: '- base2'
-  VisualNOS: '- alt_bg'
-  WarningMsg: 'error_red bg'
-  DiffText: '- diff_green_bg_dark'
-  DiffAdd: '- diff_green_bg'
-  DiffChange: '- diff_green_bg'
-  DiffDelete: 'diff_red_fg diff_red_bg'
-  QuickFixLine: 'bg ui3_blue'
-  PmenuSbar: '- alt_bg'
-  PmenuThumb: '- gray'
-  MatchWord: '- - u'
-  MatchParen: 'hint_blue bg u'
-  MatchWordCur: '- - u'
-  MatchParenCur: '- - u'
-  Cursor: 'cursor_fg cursor_bg'
-  lCursor: 'cursor_fg cursor_bg'
-  CursorIM: 'cursor_fg cursor_bg'
-  TermCursor: 'cursor_fg cursor_bg'
-  TermCursorNC: 'cursor_fg cursor_bg'
-  Conceal: 'accent'
-  Directory: 'blue'
-  SpecialKey: 'blue - b'
-  Title: 'blue - b'
-  ErrorMsg: 'error_red bg b'
-  Search: 'base3 search_blue'
-  IncSearch: 'base3 light_gray'
-  Substitute: 'light_gray search_orange'
-  MoreMsg: 'orange'
-  Question: 'orange'
-  EndOfBuffer: 'bg'
-  NonText: 'bg'
-  Variable: 'light_blue'
-  String: 'orange'
-  Character: 'orange'
-  Constant: 'vivid_blue'
-  Number: 'light_green'
-  Boolean: 'blue'
-  Float: 'light_green'
-  Identifier: 'light_blue'
-  Function: 'yellow'
-  Operator: 'fg'
-  Type: 'cyan'
-  StorageClass: 'blue'
-  Structure: 'blue'
-  Typedef: 'blue'
-  Keyword: 'blue'
-  Statement: 'purple'
-  Conditional: 'blue'
-  Repeat: 'purple'
-  Label: 'purple'
-  Exception: 'purple'
-  Include: 'purple'
-  PreProc: 'purple'
-  Define: 'purple'
-  Macro: 'purple'
-  PreCondit: 'purple'
-  Special: 'orange'
-  SpecialChar: 'white'
-  Tag: 'blue'
-  Debug: 'red'
-  Delimiter: 'gray -'
-  SpecialComment: 'gray'
-  Underlined: '- - u'
-  Bold: '- - b'
-  Italic: '- - i'
-  Ignore: 'cyan bg b'
-  Todo: 'magenta bg b'
-  Error: 'error_red bg b'
-  TabLine: 'light_gray line'
-  TabLineSel: 'white line'
-  TabLineFill: 'line line'
+  Normal: "fg bg"
+  SignColumn: "- bg"
+  MsgArea: "fg bg"
+  ModeMsg: "fg dark"
+  MsgSeparator: "fg bg"
+  SpellBad: "light_red - u"
+  SpellCap: "yellow - u"
+  SpellLocal: "green - u"
+  SpellRare: "purple - u"
+  NormalNC: "fg bg"
+  Pmenu: "light_gray tree_gray"
+  PmenuSel: "bg ui3_blue"
+  WildMenu: "fg ui2_blue"
+  CursorLineNr: "light_gray bg b"
+  Comment: "gray - i"
+  Folded: "accent alt_bg"
+  FoldColumn: "accent alt_bg"
+  LineNr: "gray alt_bg"
+  FloatBoder: "gray alt_bg"
+  Whitespace: "bg -"
+  VertSplit: "gray bg"
+  CursorLine: "- dark"
+  CursorColumn: "- dark"
+  ColorColumn: "- dark"
+  NormalFloat: "- dark"
+  Visual: "- base2"
+  VisualNOS: "- alt_bg"
+  WarningMsg: "error_red bg"
+  DiffText: "- diff_green_bg_dark"
+  DiffAdd: "- diff_green_bg"
+  DiffChange: "- diff_green_bg"
+  DiffDelete: "diff_red_fg diff_red_bg"
+  QuickFixLine: "bg ui3_blue"
+  PmenuSbar: "- alt_bg"
+  PmenuThumb: "- gray"
+  MatchWord: "- - u"
+  MatchParen: "hint_blue bg u"
+  MatchWordCur: "- - u"
+  MatchParenCur: "- - u"
+  Cursor: "cursor_fg cursor_bg"
+  lCursor: "cursor_fg cursor_bg"
+  CursorIM: "cursor_fg cursor_bg"
+  TermCursor: "cursor_fg cursor_bg"
+  TermCursorNC: "cursor_fg cursor_bg"
+  Conceal: "accent"
+  Directory: "blue"
+  SpecialKey: "blue - b"
+  Title: "blue - b"
+  ErrorMsg: "error_red bg b"
+  Search: "base3 search_blue"
+  IncSearch: "light_blue fg_light"
+  CurSearch: "fg_light purple"
+  Substitute: "fg_light purple"
+  MoreMsg: "orange"
+  Question: "orange"
+  EndOfBuffer: "bg"
+  NonText: "bg"
+  Variable: "light_blue"
+  String: "orange"
+  Character: "orange"
+  Constant: "vivid_blue"
+  Number: "light_green"
+  Boolean: "blue"
+  Float: "light_green"
+  Identifier: "light_blue"
+  Function: "yellow"
+  Operator: "fg"
+  Type: "cyan"
+  StorageClass: "blue"
+  Structure: "blue"
+  Typedef: "blue"
+  Keyword: "blue"
+  Statement: "purple"
+  Conditional: "blue"
+  Repeat: "purple"
+  Label: "purple"
+  Exception: "purple"
+  Include: "purple"
+  PreProc: "purple"
+  Define: "purple"
+  Macro: "purple"
+  PreCondit: "purple"
+  Special: "orange"
+  SpecialChar: "white"
+  Tag: "blue"
+  Debug: "red"
+  Delimiter: "gray -"
+  SpecialComment: "gray"
+  Underlined: "- - u"
+  Bold: "- - b"
+  Italic: "- - i"
+  Ignore: "cyan bg b"
+  Todo: "magenta bg b"
+  Error: "error_red bg b"
+  TabLine: "light_gray line"
+  TabLineSel: "white line"
+  TabLineFill: "line line"
+
+Flash:
+  FlashBackdrop: "- base2" # Comment	backdrop
+  FlashMatch: "base3 search_blue" # Search	search matches
+  FlashCurrent: "fg_light purple" # IncSearch	current match
+  FlashLabel: "fg_light blue" # Substitute	jump label
+
+  FlashPrompt: "fg bg" # MsgArea	prompt
+  FlashPromptIcon: "fg_light orange" # Special	prompt icon
+  FlashCursor: "fg_light magenta" # Cursor	cursor
+
+NvimContextVt:
+  ContextVt: "light_text -"
+
+Rust:
+  "@keyword.import": "gray - b"
 
 Treesitter:
-  TSComment: 'base1'
-  TSAnnotation: 'blue'
-  TSAttribute: 'cyan'
-  TSConstructor: 'cyan'
-  TSType: 'cyan - b'
-  TSTypeBuiltin: 'violet - b'
-  TSConditional: 'yellow'
-  TSException: 'purple'
-  TSInclude: 'yellow - b'
-  TSKeywordReturn: 'green - b'
-  TSKeyword: 'green'
-  TSKeywordFunction: 'green'
-  TSLabel: 'orange'
-  TSNamespace: 'cyan'
-  TSRepeat: 'yellow'
-  TSConstant: 'green'
-  TSConstBuiltin: 'green'
-  TSFloat: 'orange'
-  TSNumber: 'orange'
-  TSBoolean: 'orange'
-  TSCharacter: 'green'
-  TSError: 'error_red'
-  TSFunction: 'blue - b'
-  TSFuncBuiltin: 'blue - b'
-  TSMethod: 'blue - b'
-  TSConstMacro: 'orange'
-  TSFuncMacro: 'yellow'
-  TSVariable: 'yellow'
-  TSVariableBuiltin: 'yellow - b'
-  TSProperty: 'red'
-  TSField: 'blue'
-  TSParameter: 'yellow'
-  TSParameterReference: 'yellow'
-  TSSymbol: 'light_blue'
-  TSText: 'alt_fg'
-  TSOperator: 'alt_fg'
-  TSPunctDelimiter: 'alt_fg -'
-  TSTagDelimiter: 'alt_fg'
-  TSTagAttribute: 'yellow'
-  TSPunctBracket: 'alt_fg -'
-  TSPunctSpecial: 'fg'
-  TSString: 'green'
-  TSStringRegex: 'green'
-  TSStringEscape: 'green'
-  TSTag: 'blue'
+  TSComment: "base1"
+  TSAnnotation: "blue"
+  TSAttribute: "cyan"
+  TSConstructor: "cyan"
+  TSType: "cyan - b"
+  TSTypeBuiltin: "violet - b"
+  TSConditional: "yellow"
+  TSException: "purple"
+  TSInclude: "yellow - b"
+  TSKeywordReturn: "green - b"
+  TSKeyword: "green"
+  TSKeywordFunction: "green"
+  TSLabel: "orange"
+  TSNamespace: "cyan"
+  TSRepeat: "yellow"
+  TSConstant: "green"
+  TSConstBuiltin: "green"
+  TSFloat: "orange"
+  TSNumber: "orange"
+  TSBoolean: "orange"
+  TSCharacter: "green"
+  TSError: "error_red"
+  TSFunction: "blue - b"
+  TSFuncBuiltin: "blue - b"
+  TSMethod: "blue - b"
+  TSConstMacro: "orange"
+  TSFuncMacro: "yellow"
+  TSVariable: "yellow"
+  TSVariableBuiltin: "yellow - b"
+  TSProperty: "red"
+  TSField: "blue"
+  TSParameter: "yellow"
+  TSParameterReference: "yellow"
+  TSSymbol: "light_blue"
+  TSText: "alt_fg"
+  TSOperator: "alt_fg"
+  TSPunctDelimiter: "alt_fg -"
+  TSTagDelimiter: "alt_fg"
+  TSTagAttribute: "yellow"
+  TSPunctBracket: "alt_fg -"
+  TSPunctSpecial: "fg"
+  TSString: "green"
+  TSStringRegex: "green"
+  TSStringEscape: "green"
+  TSTag: "blue"
   # TSEmphasis: '- - i'
-  TSEmphasis: '- - b'
+  TSEmphasis: "- - b"
   # TSUnderline: '- - u'
-  TSUnderline: '- - u'
+  TSUnderline: "- - u"
   # TSWarning: 'red - bold'
   # TSStrike: '- - s'
-  TSTitle: 'fg - -'
-  TSLiteral: 'orange'
-  TSURI: 'orange - u'
-  TSKeywordOperator: 'purple'
-  TSStructure: 'light_blue'
-  TSStrong: 'blue - b'
-  TSQueryLinterError: 'warning_orange'
-  TreesitterContext: '- tree_gray'
-  TSPlaygroundFocus: 'base3 blue'
+  TSTitle: "fg - -"
+  TSLiteral: "orange"
+  TSURI: "orange - u"
+  TSKeywordOperator: "purple"
+  TSStructure: "light_blue"
+  TSStrong: "blue - b"
+  TSQueryLinterError: "warning_orange"
+  TreesitterContext: "- tree_gray"
+  TSPlaygroundFocus: "base3 blue"
 
 markdown:
-  markdownBlockquote: 'green'
-  markdownCode: 'orange'
-  markdownCodeBlock: 'orange'
-  markdownCodeDelimiter: 'orange'
-  markdownH1: 'blue'
-  markdownH2: 'blue'
-  markdownH3: 'blue'
-  markdownH4: 'blue'
-  markdownH5: 'blue'
-  markdownH6: 'blue'
-  markdownHeadingDelimiter: 'blue'
-  markdownHeadingRule: 'fg - b'
-  markdownId: 'purple'
-  markdownIdDeclaration: 'blue'
-  markdownIdDelimiter: 'light_gray'
-  markdownLinkDelimiter: 'light_gray'
-  markdownBold: 'blue - b'
-  markdownItalic: '- - i'
-  markdownBoldItalic: 'yellow - bi'
-  markdownListMarker: 'blue'
-  markdownOrderedListMarker: 'blue'
-  markdownRule: 'accent'
-  markdownUrl: 'cyan - u'
-  markdownLinkText: 'blue'
-  markdownFootnote: 'orange'
-  markdownFootnoteDefinition: 'orange'
-  markdownEscape: 'yellow'
+  markdownBlockquote: "green"
+  markdownCode: "orange"
+  markdownCodeBlock: "orange"
+  markdownCodeDelimiter: "orange"
+  markdownH1: "blue"
+  markdownH2: "blue"
+  markdownH3: "blue"
+  markdownH4: "blue"
+  markdownH5: "blue"
+  markdownH6: "blue"
+  markdownHeadingDelimiter: "blue"
+  markdownHeadingRule: "fg - b"
+  markdownId: "purple"
+  markdownIdDeclaration: "blue"
+  markdownIdDelimiter: "light_gray"
+  markdownLinkDelimiter: "light_gray"
+  markdownBold: "blue - b"
+  markdownItalic: "- - i"
+  markdownBoldItalic: "yellow - bi"
+  markdownListMarker: "blue"
+  markdownOrderedListMarker: "blue"
+  markdownRule: "accent"
+  markdownUrl: "cyan - u"
+  markdownLinkText: "blue"
+  markdownFootnote: "orange"
+  markdownFootnoteDefinition: "orange"
+  markdownEscape: "yellow"
 
 Whichkey:
-  WhichKey: 'purple'
-  WhichKeySeperator: 'green'
-  WhichKeyGroup: 'blue'
-  WhichKeyDesc: 'light_blue'
-  WhichKeyFloat: '- dark'
+  WhichKey: "purple"
+  WhichKeySeperator: "green"
+  WhichKeyGroup: "blue"
+  WhichKeyDesc: "light_blue"
+  WhichKeyFloat: "- dark"
 
 Git:
-  SignAdd: 'sign_add'
-  SignChange: 'sign_change'
-  SignDelete: 'sign_delete'
-  GitSignsAdd: 'sign_add'
-  GitSignsChange: 'sign_change'
-  GitSignsDelete: 'sign_delete'
+  SignAdd: "sign_add"
+  SignChange: "sign_change"
+  SignDelete: "sign_delete"
+  GitSignsAdd: "sign_add"
+  GitSignsChange: "sign_change"
+  GitSignsDelete: "sign_delete"
 
 LSP:
-  LspDiagnosticsDefaultError: 'error_red'
-  LspDiagnosticsDefaultWarning: 'warning_orange'
-  LspDiagnosticsDefaultInformation: 'info_yellow'
-  LspDiagnosticsDefaultInfo: 'info_yellow'
-  LspDiagnosticsDefaultHint: 'hint_blue'
-  LspDiagnosticsVirtualTextError: 'error_red'
-  LspDiagnosticsVirtualTextWarning: 'warning_orange'
-  LspDiagnosticsVirtualTextInformation: 'info_yellow'
-  LspDiagnosticsVirtualTextInfo: 'info_yellow'
-  LspDiagnosticsVirtualTextHint: 'hint_blue'
-  LspDiagnosticsFloatingError: 'error_red'
-  LspDiagnosticsFloatingWarning: 'warning_orange'
-  LspDiagnosticsFloatingInformation: 'info_yellow'
-  LspDiagnosticsFloatingInfo: 'info_yellow'
-  LspDiagnosticsFloatingHint: 'hint_blue'
-  DiagnosticSignError: 'error_red'
-  DiagnosticSignWarning: 'warning_orange'
-  DiagnosticSignInformation: 'info_yellow'
-  DiagnosticSignInfo: 'info_yellow'
-  DiagnosticSignHint: 'hint_blue'
-  LspDiagnosticsSignError: 'error_red'
-  LspDiagnosticsSignWarning: 'warning_orange'
-  LspDiagnosticsSignInformation: 'info_yellow'
-  LspDiagnosticsSignInfo: 'info_yellow'
-  LspDiagnosticsSignHint: 'hint_blue'
-  LspDiagnosticsError: 'error_red'
-  LspDiagnosticsWarning: 'warning_orange'
-  LspDiagnosticsInformation: 'info_yellow'
-  LspDiagnosticsInfo: 'info_yellow'
-  LspDiagnosticsHint: 'hint_blue'
-  LspDiagnosticsUnderlineError: '- - u'
-  LspDiagnosticsUnderlineWarning: '- - u'
-  LspDiagnosticsUnderlineInformation: '- - u'
-  LspDiagnosticsUnderlineInfo: '- - u'
-  LspDiagnosticsUnderlineHint: '- - u'
+  LspDiagnosticsDefaultError: "error_red"
+  LspDiagnosticsDefaultWarning: "warning_orange"
+  LspDiagnosticsDefaultInformation: "info_yellow"
+  LspDiagnosticsDefaultInfo: "info_yellow"
+  LspDiagnosticsDefaultHint: "hint_blue"
+  LspDiagnosticsVirtualTextError: "error_red"
+  LspDiagnosticsVirtualTextWarning: "warning_orange"
+  LspDiagnosticsVirtualTextInformation: "info_yellow"
+  LspDiagnosticsVirtualTextInfo: "info_yellow"
+  LspDiagnosticsVirtualTextHint: "hint_blue"
+  LspDiagnosticsFloatingError: "error_red"
+  LspDiagnosticsFloatingWarning: "warning_orange"
+  LspDiagnosticsFloatingInformation: "info_yellow"
+  LspDiagnosticsFloatingInfo: "info_yellow"
+  LspDiagnosticsFloatingHint: "hint_blue"
+  DiagnosticSignError: "error_red"
+  DiagnosticSignWarning: "warning_orange"
+  DiagnosticSignInformation: "info_yellow"
+  DiagnosticSignInfo: "info_yellow"
+  DiagnosticSignHint: "hint_blue"
+  LspDiagnosticsSignError: "error_red"
+  LspDiagnosticsSignWarning: "warning_orange"
+  LspDiagnosticsSignInformation: "info_yellow"
+  LspDiagnosticsSignInfo: "info_yellow"
+  LspDiagnosticsSignHint: "hint_blue"
+  LspDiagnosticsError: "error_red"
+  LspDiagnosticsWarning: "warning_orange"
+  LspDiagnosticsInformation: "info_yellow"
+  LspDiagnosticsInfo: "info_yellow"
+  LspDiagnosticsHint: "hint_blue"
+  LspDiagnosticsUnderlineError: "- - u"
+  LspDiagnosticsUnderlineWarning: "- - u"
+  LspDiagnosticsUnderlineInformation: "- - u"
+  LspDiagnosticsUnderlineInfo: "- - u"
+  LspDiagnosticsUnderlineHint: "- - u"
 
-  LspReferenceRead: 'violet base2 b'
-  LspReferenceText: 'violet base2 b'
-  LspReferenceWrite: 'magenta base2 b'
+  LspReferenceRead: "violet base2 b"
+  LspReferenceText: "violet base2 b"
+  LspReferenceWrite: "magenta base2 b"
 
-  LspCodeLens: 'context - i'
-  LspCodeLensSeparator: 'context - i'
+  LspCodeLens: "context - i"
+  LspCodeLensSeparator: "context - i"
 
 Quickscope:
-  QuickScopePrimary: 'purple_test - u'
-  QuickScopeSecondary: 'cyan_test - u'
+  QuickScopePrimary: "purple_test - u"
+  QuickScopeSecondary: "cyan_test - u"
 
 Telescope:
-  TelescopeSelection: 'hint_blue'
-  TelescopeMatching: 'info_yellow - b'
-  TelescopeBorder: 'blue bg'
+  TelescopeSelection: "hint_blue"
+  TelescopeMatching: "info_yellow - b"
+  TelescopeBorder: "blue bg"
 
 NvimTree:
-  NvimTreeFolderIcon: 'blue'
-  NvimTreeIndentMarker: 'base02'
+  NvimTreeFolderIcon: "blue"
+  NvimTreeIndentMarker: "base02"
   # NvimTreeIndentMarker: '#39393A'
-  NvimTreeNormal: 'base00 base3'
-  NvimTreeVertSplit: 'alt_bg alt_bg'
-  NvimTreeFolderName: 'blue'
-  NvimTreeOpenedFolderName: 'blue - bi'
-  NvimTreeEmptyFolderName: 'gray - i'
-  NvimTreeGitIgnored: 'gray - i'
-  NvimTreeImageFile: 'light_gray'
-  NvimTreeSpecialFile: 'orange'
-  NvimTreeEndOfBuffer: 'tree_gray'
-  NvimTreeCursorLine: '- base2'
-  NvimTreeGitignoreIcon: '#dc322f'
+  NvimTreeNormal: "base00 base3"
+  NvimTreeVertSplit: "alt_bg alt_bg"
+  NvimTreeFolderName: "blue"
+  NvimTreeOpenedFolderName: "blue - bi"
+  NvimTreeEmptyFolderName: "gray - i"
+  NvimTreeGitIgnored: "gray - i"
+  NvimTreeImageFile: "light_gray"
+  NvimTreeSpecialFile: "orange"
+  NvimTreeEndOfBuffer: "tree_gray"
+  NvimTreeCursorLine: "- base2"
+  NvimTreeGitignoreIcon: "#dc322f"
 
   # NvimTreeIndentMarker: '#585858'
 
-  NvimTreeGitStaged: 'tree_sign_add'
-  NvimTreeGitNew: 'tree_sign_add'
-  NvimTreeGitRenamed: 'tree_sign_add'
-  NvimTreeGitDeleted: 'sign_delete'
-  NvimTreeGitMerge: 'tree_sign_change'
-  NvimTreeGitDirty: 'tree_sign_change'
+  NvimTreeGitStaged: "tree_sign_add"
+  NvimTreeGitNew: "tree_sign_add"
+  NvimTreeGitRenamed: "tree_sign_add"
+  NvimTreeGitDeleted: "sign_delete"
+  NvimTreeGitMerge: "tree_sign_change"
+  NvimTreeGitDirty: "tree_sign_change"
 
-  NvimTreeSymlink: 'cyan'
-  NvimTreeRootFolder: 'fg - b'
-  NvimTreeExecFile: 'magenta'
+  NvimTreeSymlink: "cyan"
+  NvimTreeRootFolder: "fg - b"
+  NvimTreeExecFile: "magenta"
+
+NeoTree:
+  NeoTreeTabInactive: "gray bg"
+  NeoTreeTabActive: "blue bg"
+  NeoTreeTabSeparatorInactive: "gray bg"
+  NeoTreeTabSeparatorActive: "blue bg"
+  NeoTreeBufferNumber: "magenta" # The buffer number shown in the buffers source.
+  NeoTreeCursorLine: "- base2" # |hl-CursorLine| override in Neo-tree window.
+  NeoTreeDimText: "gray" # Greyed out text used in various places.
+  NeoTreeDirectoryIcon: "blue" # Directory icon.
+  NeoTreeDirectoryName: "blue" # Directory name.
+  NeoTreeDotfile: "fg" # Used for icons and names when dotfiles are filtered.
+  NeoTreeFileIcon: "gray" # File icon, when not overridden by devicons.
+  NeoTreeFileName: "fg" # File name, when not overwritten by another status.
+  NeoTreeFileNameOpened: "fg" # File name when the file is open. Not used yet.
+  NeoTreeFilterTerm: "fg" # The filter term, as displayed in the root node.
+  NeoTreeFloatBorder: "blue bg" # The border for pop-up windows.
+  NeoTreeFloatTitle:
+    "blue" # Used for the title text of pop-ups when the border-style
+    #   is: '' # set to another style than "NC". This is derived
+    #   from: '' # NeoTreeFloatBorder.
+  NeoTreeTitleBar:
+    "blue" # Used for the title bar of pop-ups, when the border-style
+    #     is: '' # set to "NC". This is derived from NeoTreeFloatBorder.
+  NeoTreeGitAdded: "tree_sign_add" # File name when the git status is added.
+  NeoTreeGitConflict: "tree_sign_change" # File name when the git status is conflict.
+  NeoTreeGitDeleted: "sign_delete" # File name when the git status is deleted.
+  NeoTreeGitIgnored: "gray" # File name when the git status is ignored.
+  NeoTreeGitModified: "green" # File name when the git status is modified.
+  NeoTreeGitUnstaged: "green" # Used for git unstaged symbol.
+  NeoTreeGitUntracked: "red" # File name when the git status is untracked.
+  NeoTreeGitStaged: "blue" # Used for git staged symbol.
+  NeoTreeHiddenByName: "gray" # Used for icons and names when `hide_by_name` is used.
+  NeoTreeIndentMarker:
+    "" # The style of indentation markers (guides). By default,
+    #  the: '' # "Normal" highlight is used.
+  NeoTreeExpander: "gray" # Used for collapsed/expanded icons.
+  NeoTreeNormal: "" # |hl-Normal| override in Neo-tree window.
+  NeoTreeNormalNC: "" # |hl-NormalNC| override in Neo-tree window.
+  NeoTreeSignColumn: "" # |hl-SignColumn| override in Neo-tree window.
+  NeoTreeStats: "" # Used for "stat" columns like size, last modified, etc.
+  NeoTreeStatsHeader: "" # Used for the header (top line) of the above columns.
+  NeoTreeStatusLine: "" # |hl-StatusLine| override in Neo-tree window.
+  NeoTreeStatusLineNC: "" # |hl-StatusLineNC| override in Neo-tree window.
+  NeoTreeVertSplit: "" # |hl-VertSplit| override in Neo-tree window.
+  NeoTreeWinSeparator: "" # |hl-WinSeparator| override in Neo-tree window.
+  NeoTreeEndOfBuffer: "" # |hl-EndOfBuffer| override in Neo-tree window.
+  NeoTreeRootName: "" # The name of the root node.
+  NeoTreeSymbolicLinkTarget: "" # Symbolic link target.
+  NeoTreeWindowsHidden: "" # Used for icons and names that are hidden on Windows.
 
 Lir:
-  LirFloatNormal: 'light_gray alt_bg'
-  LirDir: 'blue'
-  LirSymLink: 'cyan'
-  LirEmptyDirText: 'blue'
+  LirFloatNormal: "light_gray alt_bg"
+  LirDir: "blue"
+  LirSymLink: "cyan"
+  LirEmptyDirText: "blue"
 
 Buffer:
-  BufferCurrent: 'fg bg'
-  BufferCurrentIndex: 'fg bg'
-  BufferCurrentMod: 'info_yellow bg'
-  BufferCurrentSign: 'hint_blue bg'
-  BufferCurrentTarget: 'red bg b'
+  BufferCurrent: "fg bg"
+  BufferCurrentIndex: "fg bg"
+  BufferCurrentMod: "info_yellow bg"
+  BufferCurrentSign: "hint_blue bg"
+  BufferCurrentTarget: "red bg b"
 
-  BufferVisible: 'fg bg'
-  BufferVisibleIndex: 'fg bg'
-  BufferVisibleMod: 'info_yellow bg'
-  BufferVisibleSign: 'gray bg'
-  BufferVisibleTarget: 'red bg b'
+  BufferVisible: "fg bg"
+  BufferVisibleIndex: "fg bg"
+  BufferVisibleMod: "info_yellow bg"
+  BufferVisibleSign: "gray bg"
+  BufferVisibleTarget: "red bg b"
 
-  BufferInactive: 'gray alt_bg'
-  BufferInactiveIndex: 'gray alt_bg'
-  BufferInactiveMod: 'info_yellow alt_bg'
-  BufferInactiveSign: 'gray alt_bg'
-  BufferInactiveTarget: 'red alt_bg b'
+  BufferInactive: "gray alt_bg"
+  BufferInactiveIndex: "gray alt_bg"
+  BufferInactiveMod: "info_yellow alt_bg"
+  BufferInactiveSign: "gray alt_bg"
+  BufferInactiveTarget: "red alt_bg b"
 
 StatusLine:
-  StatusLine: 'line gray'
-  StatusLineNC: 'line gray'
-  StatusLineSeparator: 'line'
-  StatusLineTerm: 'line'
-  StatusLineTermNC: 'line'
+  StatusLine: "gray line"
+  StatusLineNC: "gray line"
+  StatusLineSeparator: "gray"
+  StatusLineTerm: "gray"
+  StatusLineTermNC: "gray"
+
+IndentBlankline2:
+  # The default highlight group for indentation characters.
+  # Default: takes the values from |hl-Whitespace| when not defined
+  IblIndent:
+    "fg_light -"
+    # The default highlight group for whitespace characters.
+    # Default: takes the values from |hl-Whitespace| when not defined
+  IblWhitespace: "fg bg"
+  IblScope: "magenta -"
 
 IndentBlankline:
-  IndentBlanklineIndent1: '#f9e19f'
-  IndentBlanklineIndent2: '#f9e19f'
-  IndentBlanklineIndent3: '#f9e19f'
-  IndentBlanklineIndent4: '#f9e19f'
-  IndentBlanklineIndent5: '#f9e19f'
-  IndentBlanklineIndent6: '#f9e19f'
+  IndentBlanklineIndent1: "#f9e19f"
+  IndentBlanklineIndent2: "#f9e19f"
+  IndentBlanklineIndent3: "#f9e19f"
+  IndentBlanklineIndent4: "#f9e19f"
+  IndentBlanklineIndent5: "#f9e19f"
+  IndentBlanklineIndent6: "#f9e19f"
   # IndentBlanklineIndent1: '#fae7b3'
   # IndentBlanklineIndent2: '#fae7b3'
   # IndentBlanklineIndent3: '#fae7b3'
@@ -450,51 +530,51 @@ IndentBlankline:
   # IndentBlanklineIndent4: '#f8fa90'
   # IndentBlanklineIndent5: 'base2'
   # IndentBlanklineIndent6: 'base1'
-  IndentBlanklineContextChar: '#a8d2f0'
-  IndentBlanklineContextStart: '- - u'
-  IndentBlanklineChar: 'base2'
-  IndentBlanklineSpaceChar: 'cyan_test'
-  IndentBlanklineSpaceCharBlankline: 'info_yellow'
+  IndentBlanklineContextChar: "#a8d2f0"
+  IndentBlanklineContextStart: "- - u"
+  IndentBlanklineChar: "base2"
+  IndentBlanklineSpaceChar: "cyan_test"
+  IndentBlanklineSpaceCharBlankline: "info_yellow"
 
 Dashboard:
-  DashboardHeader: 'blue'
-  DashboardCenter: 'purple'
-  DashboardFooter: 'cyan'
+  DashboardHeader: "blue"
+  DashboardCenter: "purple"
+  DashboardFooter: "cyan"
 
 DiffView:
-  DiffViewNormal: 'gray alt_bg'
-  DiffviewStatusAdded: 'sign_add'
-  DiffviewStatusModified: 'sign_change'
-  DiffviewStatusRenamed: 'sign_change'
-  DiffviewStatusDeleted: 'sign_delete'
-  DiffviewFilePanelInsertion: 'sign_add'
-  DiffviewFilePanelDeletion: 'sign_delete'
-  DiffviewVertSplit: '- bg'
+  DiffViewNormal: "gray alt_bg"
+  DiffviewStatusAdded: "sign_add"
+  DiffviewStatusModified: "sign_change"
+  DiffviewStatusRenamed: "sign_change"
+  DiffviewStatusDeleted: "sign_delete"
+  DiffviewFilePanelInsertion: "sign_add"
+  DiffviewFilePanelDeletion: "sign_delete"
+  DiffviewVertSplit: "- bg"
 
 Bookmarks:
-  BookmarkSign: 'sign_change'
-  BookmarkAnnotationSign: 'yellow'
-  BookmarkLine: 'ui2_blue'
-  BookmarkAnnotationLine: 'ui2_blue'
+  BookmarkSign: "sign_change"
+  BookmarkAnnotationSign: "yellow"
+  BookmarkLine: "ui2_blue"
+  BookmarkAnnotationLine: "ui2_blue"
 
 Bqf:
   # BqfPreviewFloat: 'fg'
-  BqfPreviewBorder: 'fg'
+  BqfPreviewBorder: "fg"
   # BqfPreviewCursor: ''
-  BqfPreviewRange: '- ui2_blue'
+  BqfPreviewRange: "- ui2_blue"
   # BqfSign: ''
 
 Cmp:
   # CmpItemAbbr: '#ff0000'
   # The abbr field.
 
-  CmpItemAbbrDeprecated: 'gray - s'
+  CmpItemAbbrDeprecated: "gray - s"
   # The deprecated item's abbr field.
 
-  CmpItemAbbrMatch: 'ui3_blue'
+  CmpItemAbbrMatch: "ui3_blue"
   # The matched characters highlight.
 
-  CmpItemAbbrMatchFuzzy: 'ui3_blue'
+  CmpItemAbbrMatchFuzzy: "ui3_blue"
   # The fuzzy matched characters highlight.
 
   # CmpItemKind: 'purple'
@@ -506,119 +586,119 @@ Cmp:
   # CmpItemAbbrMatch: "blue"     guibg=NONE guifg=#569CD6
   # CmpItemAbbrMatchFuzzy: guibg=NONE guifg=#569CD6
   # TODO: finish this later
-  CmpItemKindFunction: 'blue'
-  CmpItemKindMethod: 'blue'
-  CmpItemKindConstructor: 'cyan'
-  CmpItemKindClass: 'cyan'
-  CmpItemKindEnum: 'cyan'
-  CmpItemKindEvent: 'yellow'
-  CmpItemKindInterface: 'cyan'
-  CmpItemKindStruct: 'cyan'
-  CmpItemKindVariable: 'red'
-  CmpItemKindField: 'red'
-  CmpItemKindProperty: 'red'
-  CmpItemKindEnumMember: 'orange'
-  CmpItemKindConstant: 'orange'
-  CmpItemKindKeyword: 'purple'
-  CmpItemKindModule: 'cyan'
-  CmpItemKindValue: 'fg'
-  CmpItemKindUnit: 'fg'
-  CmpItemKindText: 'fg'
-  CmpItemKindSnippet: 'yellow'
-  CmpItemKindFile: 'fg'
-  CmpItemKindFolder: 'fg'
-  CmpItemKindColor: 'fg'
-  CmpItemKindReference: 'fg'
-  CmpItemKindOperator: 'fg'
-  CmpItemKindTypeParameter: 'red'
+  CmpItemKindFunction: "blue"
+  CmpItemKindMethod: "blue"
+  CmpItemKindConstructor: "cyan"
+  CmpItemKindClass: "cyan"
+  CmpItemKindEnum: "cyan"
+  CmpItemKindEvent: "yellow"
+  CmpItemKindInterface: "cyan"
+  CmpItemKindStruct: "cyan"
+  CmpItemKindVariable: "red"
+  CmpItemKindField: "red"
+  CmpItemKindProperty: "red"
+  CmpItemKindEnumMember: "orange"
+  CmpItemKindConstant: "orange"
+  CmpItemKindKeyword: "purple"
+  CmpItemKindModule: "cyan"
+  CmpItemKindValue: "fg"
+  CmpItemKindUnit: "fg"
+  CmpItemKindText: "fg"
+  CmpItemKindSnippet: "yellow"
+  CmpItemKindFile: "fg"
+  CmpItemKindFolder: "fg"
+  CmpItemKindColor: "fg"
+  CmpItemKindReference: "fg"
+  CmpItemKindOperator: "fg"
+  CmpItemKindTypeParameter: "red"
 
 Navic:
-  NavicIconsFile: 'fg'         
-  NavicIconsModule: 'cyan'       
-  NavicIconsNamespace: 'fg'    
-  NavicIconsPackage: 'fg'      
-  NavicIconsClass: 'cyan'        
-  NavicIconsMethod: 'blue'       
-  NavicIconsProperty: 'red'     
-  NavicIconsField: 'red'        
-  NavicIconsConstructor: 'cyan'  
-  NavicIconsEnum: 'cyan'         
-  NavicIconsInterface: 'cyan'    
-  NavicIconsFunction: 'blue'     
-  NavicIconsVariable: 'red'     
-  NavicIconsConstant: 'orange'     
-  NavicIconsString: 'green'       
-  NavicIconsNumber: 'orange'       
-  NavicIconsBoolean: 'orange'      
-  NavicIconsArray: 'cyan'        
-  NavicIconsObject: 'cyan'       
-  NavicIconsKey: 'purple'          
-  NavicIconsKeyword: 'purple'          
-  NavicIconsNull: 'orange'         
-  NavicIconsEnumMember: 'orange'   
-  NavicIconsStruct: 'cyan'       
-  NavicIconsEvent: 'yellow'        
-  NavicIconsOperator: 'fg'     
-  NavicIconsTypeParameter: 'red'
-  NavicText: 'context'            
-  NavicSeparator: 'context'       
+  NavicIconsFile: "fg"
+  NavicIconsModule: "cyan"
+  NavicIconsNamespace: "fg"
+  NavicIconsPackage: "fg"
+  NavicIconsClass: "cyan"
+  NavicIconsMethod: "blue"
+  NavicIconsProperty: "red"
+  NavicIconsField: "red"
+  NavicIconsConstructor: "cyan"
+  NavicIconsEnum: "cyan"
+  NavicIconsInterface: "cyan"
+  NavicIconsFunction: "blue"
+  NavicIconsVariable: "red"
+  NavicIconsConstant: "orange"
+  NavicIconsString: "green"
+  NavicIconsNumber: "orange"
+  NavicIconsBoolean: "orange"
+  NavicIconsArray: "cyan"
+  NavicIconsObject: "cyan"
+  NavicIconsKey: "purple"
+  NavicIconsKeyword: "purple"
+  NavicIconsNull: "orange"
+  NavicIconsEnumMember: "orange"
+  NavicIconsStruct: "cyan"
+  NavicIconsEvent: "yellow"
+  NavicIconsOperator: "fg"
+  NavicIconsTypeParameter: "red"
+  NavicText: "context"
+  NavicSeparator: "context"
 
 Gps:
-  GpsNormal: 'gray #1d1d1d'
-  GpsItemKindFunction: 'ui_purple'
-  GpsItemKindMethod: 'ui_purple'
-  GpsItemKindConstructor: 'ui_orange'
-  GpsItemKindClass: 'ui_orange'
-  GpsItemKindEnum: 'ui_orange'
-  GpsItemKindEvent: 'ui_purple'
-  GpsItemKindInterface: 'light_blue'
-  GpsItemKindStruct: 'ui4_blue'
-  GpsItemKindVariable: 'ui4_blue'
-  GpsItemKindField: 'ui4_blue'
-  GpsItemKindProperty: 'ui4_blue'
-  GpsItemKindEnumMember: 'light_blue'
-  GpsItemKindConstant: 'ui4_blue'
-  GpsItemKindKeyword: 'fg'
-  GpsItemKindModule: 'fg'
-  GpsItemKindValue: 'fg'
-  GpsItemKindUnit: 'fg'
-  GpsItemKindText: 'fg'
-  GpsItemKindSnippet: 'fg'
-  GpsItemKindFile: 'fg'
-  GpsItemKindFolder: 'fg'
-  GpsItemKindColor: 'fg'
-  GpsItemKindReference: 'fg'
-  GpsItemKindOperator: 'fg'
-  GpsItemKindTypeParameter: 'fg'
+  GpsNormal: "gray #1d1d1d"
+  GpsItemKindFunction: "ui_purple"
+  GpsItemKindMethod: "ui_purple"
+  GpsItemKindConstructor: "ui_orange"
+  GpsItemKindClass: "ui_orange"
+  GpsItemKindEnum: "ui_orange"
+  GpsItemKindEvent: "ui_purple"
+  GpsItemKindInterface: "light_blue"
+  GpsItemKindStruct: "ui4_blue"
+  GpsItemKindVariable: "ui4_blue"
+  GpsItemKindField: "ui4_blue"
+  GpsItemKindProperty: "ui4_blue"
+  GpsItemKindEnumMember: "light_blue"
+  GpsItemKindConstant: "ui4_blue"
+  GpsItemKindKeyword: "fg"
+  GpsItemKindModule: "fg"
+  GpsItemKindValue: "fg"
+  GpsItemKindUnit: "fg"
+  GpsItemKindText: "fg"
+  GpsItemKindSnippet: "fg"
+  GpsItemKindFile: "fg"
+  GpsItemKindFolder: "fg"
+  GpsItemKindColor: "fg"
+  GpsItemKindReference: "fg"
+  GpsItemKindOperator: "fg"
+  GpsItemKindTypeParameter: "fg"
 
 Packer:
-  packerString: 'ui_orange'
-  packerHash: 'ui4_blue'
-  packerOutput: 'ui_purple'
-  packerRelDate: 'gray'
-  packerSuccess: 'success_green'
-  packerStatusSuccess: 'ui4_blue'
+  packerString: "ui_orange"
+  packerHash: "ui4_blue"
+  packerOutput: "ui_purple"
+  packerRelDate: "gray"
+  packerSuccess: "success_green"
+  packerStatusSuccess: "ui4_blue"
 
 SymbolOutline:
-  SymbolsOutlineConnector: 'gray'
-  FocusedSymbol: '- #36383F'
+  SymbolsOutlineConnector: "gray"
+  FocusedSymbol: "- #36383F"
 
 Notify:
-  NotifyERRORBorder: '#8A1F1F'
-  NotifyWARNBorder: '#79491D'
-  NotifyINFOBorder: 'ui_blue'
-  NotifyDEBUGBorder: 'gray'
-  NotifyTRACEBorder: '#4F3552'
-  NotifyERRORIcon: 'error_red'
-  NotifyWARNIcon: 'warning_orange'
-  NotifyINFOIcon: 'ui4_blue'
-  NotifyDEBUGIcon: 'gray'
-  NotifyTRACEIcon: 'ui_purple'
-  NotifyERRORTitle: 'error_red'
-  NotifyWARNTitle: 'warning_orange'
-  NotifyINFOTitle: 'ui4_blue'
-  NotifyDEBUGTitle: 'gray'
-  NotifyTRACETitle: 'ui_purple'
+  NotifyERRORBorder: "#8A1F1F"
+  NotifyWARNBorder: "#79491D"
+  NotifyINFOBorder: "ui_blue"
+  NotifyDEBUGBorder: "gray"
+  NotifyTRACEBorder: "#4F3552"
+  NotifyERRORIcon: "error_red"
+  NotifyWARNIcon: "warning_orange"
+  NotifyINFOIcon: "ui4_blue"
+  NotifyDEBUGIcon: "gray"
+  NotifyTRACEIcon: "ui_purple"
+  NotifyERRORTitle: "error_red"
+  NotifyWARNTitle: "warning_orange"
+  NotifyINFOTitle: "ui4_blue"
+  NotifyDEBUGTitle: "gray"
+  NotifyTRACETitle: "ui_purple"
   # NotifyERRORBody: Normal
   # NotifyWARNBody: Normal
   # NotifyINFOBody: Normal
@@ -626,97 +706,104 @@ Notify:
   # NotifyTRACEBody: Normal
 
 Hop:
-  HopNextKey: '#4ae0ff'
-  HopNextKey1: '#d44EeD'
-  HopNextKey2: '#b42EcD'
-  HopUnmatched: 'gray'
-  HopPreview: '#c7bA7D'
+  HopNextKey: "#4ae0ff"
+  HopNextKey1: "#d44EeD"
+  HopNextKey2: "#b42EcD"
+  HopUnmatched: "gray"
+  HopPreview: "#c7bA7D"
   # HopCursor: ''
 
 Misc:
-  diffAdded: 'sign_add'
-  diffRemoved: 'sign_delete'
-  diffFileId: 'blue - br'
-  diffFile: 'alt_bg'
-  diffNewFile: 'green'
-  diffOldFile: 'red'
-  debugPc: '- search_blue'
-  debugBreakpoint: 'red - r'
+  diffAdded: "sign_add"
+  diffRemoved: "sign_delete"
+  diffFileId: "blue - br"
+  diffFile: "alt_bg"
+  diffNewFile: "green"
+  diffOldFile: "red"
+  debugPc: "- search_blue"
+  debugBreakpoint: "red - r"
 
-  CodiVirtualText: 'hint_blue'
-  SniprunVirtualTextOk: 'hint_blue'
-  SniprunFloatingWinOk: 'hint_blue'
-  SniprunVirtualTextErr: 'error_red'
-  SniprunFloatingWinErr: 'error_red'
+  CodiVirtualText: "hint_blue"
+  SniprunVirtualTextOk: "hint_blue"
+  SniprunFloatingWinOk: "hint_blue"
+  SniprunVirtualTextErr: "error_red"
+  SniprunFloatingWinErr: "error_red"
 
-  CompeDocumentation: '- alt_bg'
+  CompeDocumentation: "- alt_bg"
 
-  DapBreakpoint: 'error_red'
+  DapBreakpoint: "error_red"
 
   ## XML
-  xmlTag: 'cyan'
-  xmlTagName: 'cyan'
+  xmlTag: "cyan"
+  xmlTagName: "cyan"
 
   ## YAML
-  xmlEndTag: 'cyan'
-  yamlPlainScalar: 'orange'
-  yamlTSField: 'blue'
+  xmlEndTag: "cyan"
+  yamlPlainScalar: "orange"
+  yamlTSField: "blue"
 
   ## lua
-  luaFunc: 'yellow'
-  luaFunction: 'blue'
+  luaFunc: "yellow"
+  luaFunction: "blue"
 
   ## hcl
-  hclTSPunctSpecial: 'alt_fg'
+  hclTSPunctSpecial: "alt_fg"
 
   ## html
-  htmlH1: 'fg'
-  htmlH2: 'fg'
-  htmlH3: 'fg'
-  htmlH4: 'fg'
-  htmlH5: 'fg'
-  htmlH6: 'fg'
-  htmlHead: 'fg'
-  htmlTitle: 'fg'
-  htmlArg: 'light_blue'
-  htmlTag: 'blue'
-  htmlTagN: 'blue'
-  htmlTagName: 'blue'
-  htmlComment: 'green'
-  htmlLink: 'orange - u'
+  htmlH1: "fg"
+  htmlH2: "fg"
+  htmlH3: "fg"
+  htmlH4: "fg"
+  htmlH5: "fg"
+  htmlH6: "fg"
+  htmlHead: "fg"
+  htmlTitle: "fg"
+  htmlArg: "light_blue"
+  htmlTag: "blue"
+  htmlTagN: "blue"
+  htmlTagName: "blue"
+  htmlComment: "green"
+  htmlLink: "orange - u"
 
   ## css
-  cssBraces: 'fg'
-  cssInclude: 'purple'
-  cssTagName: 'yellow'
-  cssClassName: 'yellow'
-  cssPseudoClass: 'yellow'
-  cssPseudoClassId: 'yellow'
-  cssPseudoClassLang: 'yellow'
-  cssIdentifier: 'yellow'
-  cssProp: 'light_blue'
-  cssDefinition: 'light_blue'
-  cssAttr: 'orange'
-  cssAttrRegion: 'orange'
-  cssColor: 'orange'
-  cssFunction: 'purple'
-  cssFunctionName: 'yellow'
-  cssVendor: 'orange'
-  cssValueNumber: 'light_green'
-  cssValueLength: 'light_green'
-  cssUnitDecorators: 'light_green'
-  cssStyle: 'light_blue'
-  cssImportant: 'blue'
+  cssBraces: "fg"
+  cssInclude: "purple"
+  cssTagName: "yellow"
+  cssClassName: "yellow"
+  cssPseudoClass: "yellow"
+  cssPseudoClassId: "yellow"
+  cssPseudoClassLang: "yellow"
+  cssIdentifier: "yellow"
+  cssProp: "light_blue"
+  cssDefinition: "light_blue"
+  cssAttr: "orange"
+  cssAttrRegion: "orange"
+  cssColor: "orange"
+  cssFunction: "purple"
+  cssFunctionName: "yellow"
+  cssVendor: "orange"
+  cssValueNumber: "light_green"
+  cssValueLength: "light_green"
+  cssUnitDecorators: "light_green"
+  cssStyle: "light_blue"
+  cssImportant: "blue"
 
   ## json
-  jsonKeyword: 'blue'
+  jsonKeyword: "blue"
 
   ## yaml
-  yamlBlockMappingKey: 'blue'
+  yamlBlockMappingKey: "blue"
 
   ## yaml
-  tomlTSProperty: 'blue'
+  tomlTSProperty: "blue"
 
+TodoComments:
+  TodoBgTODO: "bg blue b" # TODO: update
+  TodoFgTODO: "blue -"
+  TodoBgNOTE: "bg base01 b"
+  TodoFgNOTE: "base01 -"
+  TodoSignTODO: "blue -"
+  TodoSignNOTE: "base01 - b"
 Crates:
   # CratesNvimPopupPillText:
   # CratesNvimPopupPillBorder:
@@ -734,8 +821,8 @@ Crates:
   # CratesNvimPopupDependencyVersion:
   # CratesNvimPopupLoading:
 
-  CratesNvimLoading: 'hint_blue'
-  CratesNvimVersion: 'hint_blue'
+  CratesNvimLoading: "hint_blue"
+  CratesNvimVersion: "hint_blue"
   # CratesNvimPreRelease:
   # CratesNvimYanked:
   # CratesNvimNoMatch:

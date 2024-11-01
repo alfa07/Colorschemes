@@ -3,6 +3,9 @@
 lua << EOF
 package.loaded['solarized_light'] = nil
 package.loaded['solarized_light.highlights'] = nil
+package.loaded['solarized_light.Flash'] = nil
+package.loaded['solarized_light.NvimContextVt'] = nil
+package.loaded['solarized_light.Rust'] = nil
 package.loaded['solarized_light.Treesitter'] = nil
 package.loaded['solarized_light.markdown'] = nil
 package.loaded['solarized_light.Whichkey'] = nil
@@ -11,9 +14,11 @@ package.loaded['solarized_light.LSP'] = nil
 package.loaded['solarized_light.Quickscope'] = nil
 package.loaded['solarized_light.Telescope'] = nil
 package.loaded['solarized_light.NvimTree'] = nil
+package.loaded['solarized_light.NeoTree'] = nil
 package.loaded['solarized_light.Lir'] = nil
 package.loaded['solarized_light.Buffer'] = nil
 package.loaded['solarized_light.StatusLine'] = nil
+package.loaded['solarized_light.IndentBlankline2'] = nil
 package.loaded['solarized_light.IndentBlankline'] = nil
 package.loaded['solarized_light.Dashboard'] = nil
 package.loaded['solarized_light.DiffView'] = nil
@@ -27,6 +32,7 @@ package.loaded['solarized_light.SymbolOutline'] = nil
 package.loaded['solarized_light.Notify'] = nil
 package.loaded['solarized_light.Hop'] = nil
 package.loaded['solarized_light.Misc'] = nil
+package.loaded['solarized_light.TodoComments'] = nil
 package.loaded['solarized_light.Crates'] = nil
 
 require("solarized_light")

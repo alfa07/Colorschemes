@@ -1,5 +1,10 @@
 #!/bin/sh
 
+if [ -z "$1" ]; then
+    echo "Usage: generate_colorscheme.sh <name>"
+    exit 1
+fi
+
 python ez.py templates/"$1".yml
 
 rm -rf ./lua/"$1"
