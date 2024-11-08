@@ -828,3 +828,7 @@ Crates:
   # CratesNvimNoMatch:
   # CratesNvimUpgrade:
   # CratesNvimError:
+
+WinBar:
+  WinBar: "orange bg"
+  WinBarNC: "orange bg"

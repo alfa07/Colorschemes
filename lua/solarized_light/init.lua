@@ -41,10 +41,11 @@ local Hop = require("solarized_light.Hop")
 local Misc = require("solarized_light.Misc")
 local TodoComments = require("solarized_light.TodoComments")
 local Crates = require("solarized_light.Crates")
+local WinBar = require("solarized_light.WinBar")
 
 
 local skeletons = {
-    highlights, Flash, NvimContextVt, Rust, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, NeoTree, Lir, Buffer, StatusLine, IndentBlankline2, IndentBlankline, Dashboard, DiffView, Bookmarks, Bqf, Cmp, Navic, Gps, Packer, SymbolOutline, Notify, Hop, Misc, TodoComments, Crates
+    highlights, Flash, NvimContextVt, Rust, Treesitter, markdown, Whichkey, Git, LSP, Quickscope, Telescope, NvimTree, NeoTree, Lir, Buffer, StatusLine, IndentBlankline2, IndentBlankline, Dashboard, DiffView, Bookmarks, Bqf, Cmp, Navic, Gps, Packer, SymbolOutline, Notify, Hop, Misc, TodoComments, Crates, WinBar
 }
 
 for _, skeleton in ipairs(skeletons) do
