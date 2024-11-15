@@ -6,6 +6,7 @@ package.loaded['solarized_light.highlights'] = nil
 package.loaded['solarized_light.Flash'] = nil
 package.loaded['solarized_light.NvimContextVt'] = nil
 package.loaded['solarized_light.Rust'] = nil
+package.loaded['solarized_light.Go'] = nil
 package.loaded['solarized_light.Treesitter'] = nil
 package.loaded['solarized_light.markdown'] = nil
 package.loaded['solarized_light.Whichkey'] = nil
@@ -35,6 +36,7 @@ package.loaded['solarized_light.Misc'] = nil
 package.loaded['solarized_light.TodoComments'] = nil
 package.loaded['solarized_light.Crates'] = nil
 package.loaded['solarized_light.WinBar'] = nil
+package.loaded['solarized_light.Other'] = nil
 
 require("solarized_light")
 EOF

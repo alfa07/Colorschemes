@@ -220,6 +220,9 @@ NvimContextVt:
 Rust:
   "@keyword.import": "gray - b"
 
+Go:
+  "@variable.go": "fg -"
+
 Treesitter:
   TSComment: "base1"
   TSAnnotation: "blue"
@@ -830,5 +833,8 @@ Crates:
   # CratesNvimError:
 
 WinBar:
-  WinBar: "orange bg"
-  WinBarNC: "orange bg"
+  WinBar: "orange alt_bg"
+  WinBarNC: "orange alt_bg"
+
+Other:
+  NonText: "violet -"
