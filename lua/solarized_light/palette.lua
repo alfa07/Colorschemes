@@ -15,6 +15,7 @@ local colors = {
 	blue = "#268bd2",
 	cyan = "#2aa198",
 	green = "#859900",
+	cursor_blue = "#9bcdde",
 	diff_red_bg = "#f9e6d5",
 	diff_red_bg_dark = "#eec4b5",
 	diff_red_fg = "#b7461a",

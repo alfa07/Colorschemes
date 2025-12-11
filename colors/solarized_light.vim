@@ -37,6 +37,7 @@ package.loaded['solarized_light.TodoComments'] = nil
 package.loaded['solarized_light.Crates'] = nil
 package.loaded['solarized_light.WinBar'] = nil
 package.loaded['solarized_light.Other'] = nil
+package.loaded['solarized_light.Snacks'] = nil
 
 require("solarized_light")
 EOF
