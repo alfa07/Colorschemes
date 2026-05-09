@@ -5,6 +5,7 @@ package.loaded['solarized_light'] = nil
 package.loaded['solarized_light.highlights'] = nil
 package.loaded['solarized_light.Flash'] = nil
 package.loaded['solarized_light.NvimContextVt'] = nil
+package.loaded['solarized_light.Languages'] = nil
 package.loaded['solarized_light.Rust'] = nil
 package.loaded['solarized_light.Go'] = nil
 package.loaded['solarized_light.Treesitter'] = nil

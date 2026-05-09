@@ -219,6 +219,9 @@ Flash:
 NvimContextVt:
   ContextVt: "light_text -"
 
+Languages:
+  "@variable": "fg -"
+
 Rust:
   "@keyword.import": "gray - b"
 
